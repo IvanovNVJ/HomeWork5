@@ -8,9 +8,9 @@ namespace HomeWork5._1
 {
     internal class Program
     {
-        static string[] StringSplitFunction(string sentence)
+        static string[] StringSplitFunction(string inputPhrase)
         {
-             return sentence.Split(' '); 
+             return inputPhrase.Split(' '); 
                    
         }
         static void Print (string [] Array)
